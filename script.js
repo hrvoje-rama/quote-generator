@@ -61,7 +61,7 @@ function tweetQuote () {
 function facebookQuote(){
 	const quote = quoteText.innerText;
 	const author = authorText.innerText;
-	const facebookUrl = `https://www.facebook.com/sharer.php?u=https%3A%2F%2Fhrvoje-rama.github.io%2FQuote-Generator%2F&quote=${quote} - ${author}`;
+	const facebookUrl = `https://www.facebook.com/sharer.php?u=https%3A%2F%2Fhrvoje-rama.github.io%2Fquote-generator%2F&quote=${quote} - ${author}`;
 	window.open(facebookUrl, '_blank');
 }
 
